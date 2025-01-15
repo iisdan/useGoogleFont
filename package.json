@@ -2,9 +2,9 @@
 	"name": "use-google-font",
 	"version": "1.0.0",
 	"description": "A React hook to load Google Fonts",
-	"main": "dist/index.js",
-	"module": "dist/index.esm.js",
-	"types": "dist/index.d.ts",
+	"main": "dist/useGoogleFont.js",
+	"module": "dist/useGoogleFont.mjs",
+	"types": "dist/useGoogleFont.d.ts",
 	"scripts": {
 		"build": "tsup src/useGoogleFont.ts --format cjs,esm --dts",
 		"test": "echo \"Error: no test specified\" && exit 1",
