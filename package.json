@@ -1,6 +1,6 @@
 {
 	"name": "@danherbert/use-google-font",
-	"version": "1.0.13",
+	"version": "1.0.14",
 	"description": "A React hook to load Google Fonts",
 	"main": "dist/useGoogleFont.js",
 	"module": "dist/useGoogleFont.mjs",
