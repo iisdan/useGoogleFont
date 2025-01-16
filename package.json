@@ -10,9 +10,6 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"publish": "npm publish"
 	},
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
-	},
 	"author": "Dan Herbert",
 	"license": "MIT",
 	"devDependencies": {
