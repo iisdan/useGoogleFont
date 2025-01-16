@@ -7,7 +7,7 @@
 	"types": "dist/useGoogleFont.d.ts",
 	"scripts": {
 		"build": "tsup src/useGoogleFont.ts --format cjs,esm --dts",
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Dan Herbert",
 	"license": "MIT",
