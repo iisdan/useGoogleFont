@@ -32,11 +32,13 @@ export const useGoogleFont = (name: string, options?: Options): void => {
 
     const encodedName = encodeURIComponent(name);
 
-    const normalWeightString = normalWeights.join(';');
-    const italicWeightString = italicWeights.join(';');
+    const normalSpec = normalWeights.map(w => `0,${w}`).join(';');
+    const italicSpec = italicWeights.map(w => `1,${w}`).join(';');
 
-    link.href = `https://fonts.googleapis.com/css2?family=${encodedName}:wght@${normalWeightString};ital,wght@0,${normalWeightString};1,${italicWeightString}`;
+    const specs = [normalSpec, italicSpec].filter(Boolean).join(';');
 
+    link.href = `https://fonts.googleapis.com/css2?family=${encodedName}:ital,wght@${specs}`;
+    
     if (options?.default) {
       link.onload = () => {
           document.body.style.fontFamily = name;
