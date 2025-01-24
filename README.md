@@ -3,6 +3,7 @@
 [![Tests](https://github.com/iisdan/useGoogleFont/actions/workflows/test.yaml/badge.svg)](https://github.com/iisdan/useGoogleFont/actions/workflows/test.yaml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/@danherbert/use-google-font)](https://bundlephobia.com/package/@danherbert/use-google-font)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 A lightweight React hook for dynamically loading and applying Google Fonts.
 
