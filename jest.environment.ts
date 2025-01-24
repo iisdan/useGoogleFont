@@ -1,19 +1,19 @@
-const JSDOMEnvironment = require('jest-environment-jsdom').default;
+import JSDOMEnvironment from 'jest-environment-jsdom';
+import { TextEncoder, TextDecoder } from 'util';
 
 class CustomEnvironment extends JSDOMEnvironment {
-  constructor(config, context) {
+  constructor(config: any, context: any) {
     super(config, context);
   }
 
-  async setup() {
+  async setup(): Promise<void> {
     await super.setup();
     
     if (typeof this.global.TextEncoder === 'undefined') {
-      const { TextEncoder, TextDecoder } = require('util');
       this.global.TextEncoder = TextEncoder;
       this.global.TextDecoder = TextDecoder;
     }
   }
 }
 
-module.exports = CustomEnvironment; 
+export default CustomEnvironment; 
