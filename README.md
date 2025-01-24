@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="logo-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="logo-light.svg">
+    <source media="(prefers-color-scheme: light)" srcset="logo-dark.svg">
     <img alt="useGoogleFont" src="logo-light.svg" width="400">
   </picture>
 </div>
