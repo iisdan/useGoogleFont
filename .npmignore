@@ -3,8 +3,8 @@ node_modules/
 .gitignore
 tsconfig.json
 README.md
-jest.config.js
-jest.environment.js
+jest.config.ts
+jest.environment.ts
 jest.setup.ts
 .github/
 *.test.ts
