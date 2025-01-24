@@ -1,9 +1,25 @@
-# useGoogleFont
+<div align="center">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Shadows+Into+Light&family=Caveat&family=Kalam&family=Satisfy&family=Pacifico&family=Architects+Daughter&family=Amatic+SC&family=Sacramento&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  
+  <h1 style="font-size: 50px; letter-spacing: 4px;">
+    <span style="font-family: 'Dancing Script';">u</span>
+    <span style="font-family: 'Indie Flower';">s</span>
+    <span style="font-family: 'Shadows Into Light';">e</span>
+    <span style="font-family: 'Caveat';">G</span>
+    <span style="font-family: 'Kalam';">o</span>
+    <span style="font-family: 'Satisfy';">o</span>
+    <span style="font-family: 'Pacifico';">g</span>
+    <span style="font-family: 'Architects Daughter';">l</span>
+    <span style="font-family: 'Amatic SC';">e</span>
+    <span style="font-family: 'Sacramento';">F</span>
+    <span style="font-family: 'Gloria Hallelujah';">ont</span>
+  </h1>
 
-[![Tests](https://github.com/iisdan/useGoogleFont/actions/workflows/test.yaml/badge.svg)](https://github.com/iisdan/useGoogleFont/actions/workflows/test.yaml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![npm bundle size](https://img.shields.io/bundlephobia/minzip/@danherbert/use-google-font)](https://bundlephobia.com/package/@danherbert/use-google-font)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Tests](https://github.com/iisdan/useGoogleFont/actions/workflows/test.yaml/badge.svg)](https://github.com/iisdan/useGoogleFont/actions/workflows/test.yaml)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![npm bundle size](https://img.shields.io/bundlephobia/minzip/@danherbert/use-google-font)](https://bundlephobia.com/package/@danherbert/use-google-font)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+</div>
 
 A lightweight React hook for dynamically loading and applying Google Fonts.
 
