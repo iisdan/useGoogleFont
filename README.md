@@ -1,3 +1,5 @@
+<br/>
+<br/>
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="logo-light.svg">
@@ -21,9 +23,7 @@ A lightweight React hook for dynamically loading and applying Google Fonts.
 npm install use-google-font
 ```
 
-# Usage
-
-## Basic Usage
+## Usage
 
 Simply call the hook with the font name you want to use and it will load the font in dynamically.
 
@@ -38,9 +38,9 @@ const App = () => {
 }
 ```
 
-# Options
+## Options
 
-## Weights
+### Weights
 
 Use the optional `weights` option to change which weights are loaded. 
 
@@ -55,7 +55,7 @@ By default only normal 500 and 700 wieghts will be loaded.
 }
 ```
 
-## Default
+### Default
 
 By setting `default` to `true`, the font will be set on the body tag automatically.
 
@@ -65,7 +65,7 @@ By setting `default` to `true`, the font will be set on the body tag automatical
 }
 ```
 
-# Performance
+## Performance
 
 Optionally, you can add the following HTML snippet in your document's head to optimize font loading. 
 Placing these <link> tags in the <head> ensures the preconnect requests happen early, reducing latency:
