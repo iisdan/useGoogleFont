@@ -1,6 +1,16 @@
 src/
 node_modules/
-dist/
 .gitignore
 tsconfig.json
 README.md
+jest.config.js
+jest.environment.js
+jest.setup.ts
+.github/
+*.test.ts
+*.test.tsx
+coverage/
+.DS_Store
+.env*
+.vscode/
+.idea/
