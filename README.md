@@ -1,5 +1,7 @@
 # useGoogleFont
 
+[![Tests](https://github.com/danherbert/useGoogleFont/actions/workflows/test.yaml/badge.svg)](https://github.com/danherbert/useGoogleFont/actions/workflows/test.yaml)
+
 A lightweight React hook for dynamically loading and applying Google Fonts.
 
 ## Installation
@@ -54,7 +56,7 @@ By setting `default` to `true`, the font will be set on the body tag automatical
 
 # Performance
 
-Optionally, you can add the following HTML snippet in your document’s head to optimize font loading. 
+Optionally, you can add the following HTML snippet in your document's head to optimize font loading. 
 Placing these <link> tags in the <head> ensures the preconnect requests happen early, reducing latency:
 
 ```html
