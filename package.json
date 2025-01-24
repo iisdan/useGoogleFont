@@ -5,6 +5,10 @@
 	"main": "dist/useGoogleFont.js",
 	"module": "dist/useGoogleFont.mjs",
 	"types": "dist/useGoogleFont.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/iisdan/useGoogleFont.git"
+	},
 	"scripts": {
 		"build": "tsup src/useGoogleFont.ts --format cjs,esm --dts",
 		"test": "jest"
