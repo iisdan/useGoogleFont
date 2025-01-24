@@ -14,3 +14,6 @@ coverage/
 .env*
 .vscode/
 .idea/
+logo.svg
+logo-dark.svg
+logo-light.svg
