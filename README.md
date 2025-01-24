@@ -1,6 +1,6 @@
 # useGoogleFont
 
-[![Tests](https://github.com/danherbert/useGoogleFont/actions/workflows/test.yaml/badge.svg)](https://github.com/danherbert/useGoogleFont/actions/workflows/test.yaml)
+[![Tests](https://github.com/iisdan/useGoogleFont/actions/workflows/test.yaml/badge.svg)](https://github.com/iisdan/useGoogleFont/actions/workflows/test.yaml)
 
 A lightweight React hook for dynamically loading and applying Google Fonts.
 
