@@ -2,9 +2,11 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="logo-light.svg">
     <source media="(prefers-color-scheme: light)" srcset="logo-dark.svg">
-    <img alt="useGoogleFont" src="logo-light.svg" width="400">
+    <img alt="useGoogleFont" src="logo-light.svg" width="500">
   </picture>
 </div>
+<br/>
+<br/>
 
 [![Tests](https://github.com/iisdan/useGoogleFont/actions/workflows/test.yaml/badge.svg)](https://github.com/iisdan/useGoogleFont/actions/workflows/test.yaml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -74,3 +76,4 @@ Placing these <link> tags in the <head> ensures the preconnect requests happen e
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
 </head>
 ```
+
